@@ -24,5 +24,5 @@ const getMiddle = (s) => {
   return  (s.length % 2 === 0) ? (arr[middle-1]+arr[middle]):  arr[middle-1] 
 }
 
-getMiddle("test")
-getMiddle("testing")
+console.log(getMiddle("test"))
+console.log(getMiddle("testing"))

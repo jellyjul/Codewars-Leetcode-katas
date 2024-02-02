@@ -13,4 +13,4 @@ function removeEveryOther(arr){
 }
 
 
-removeEveryOther(['Hello', 'Goodbye', 'Hello Again'])
+console.log(removeEveryOther(['Hello', 'Goodbye', 'Hello Again']))
