@@ -16,11 +16,11 @@
 const minMax = (arr) => {
     const sorted = arr.sort((a,b) => a-b)
     return [sorted[0], sorted[sorted.length - 1]]
-  }
+}
 
 
-  const minMaxTwo = (arr) => {
+const minMaxTwo = (arr) => {
     return [Math.min(...arr), Math.max(...arr)];
-  }
+}
 console.log(minMax([1, 2, 3, 4, 5]))
 console.log(minMaxTwo([1, 2, 3, 4, 5]))
